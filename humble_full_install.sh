@@ -20,7 +20,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo apt update
 sudo apt upgrade
 
-echo "[Installing ROS2 humble full]
+echo "[Installing ROS2 humble full]"
 sudo apt install -y ros-humble-desktop-full
 
 echo "[Installing ROS2 Tools]"
