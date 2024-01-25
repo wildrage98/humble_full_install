@@ -1,3 +1,6 @@
+#! /bin/bash
+# : Install ROS2 humble
+
 set -x
 
 name_ws="robot_ws"
