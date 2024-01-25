@@ -5,3 +5,7 @@
 ```javascript
 wget https://github.com/wildrage98/humble_full_install/blob/main/humble_full_install.sh && chmod 755 ./humble_full_install.sh && ./humble_full_install.sh
 ```
+
+'''javascript
+wget https://raw.githubusercontent.com/wildrage98/humble_full_install/main/humble_full_install.sh; chmod +x humble_full_install.sh; ./humble_full_install.sh
+'''
