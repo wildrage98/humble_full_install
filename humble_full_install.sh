@@ -62,7 +62,7 @@ cd ~/robot_ws/
 colcon build --symlink-install
 
 echo "[Set ROS2 alias and env]"
-sh -c 'echo "alias rf='\''source /opt/ros/humble/setup.bash; source ~/robot_ws/install/local_setup.bash; echo Activate humble!'\''" >> ~/.bashrc'
+sh -c 'echo "alias rh='\''source /opt/ros/humble/setup.bash; source ~/robot_ws/install/local_setup.bash; echo Activate humble!'\''" >> ~/.bashrc'
 sh -c "echo \"source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash\" >> ~/.bashrc"
 sh -c "echo \"source /usr/share/vcstool-completion/vcs.bash\" >> ~/.bashrc"
 sh -c "echo \"source /usr/share/colcon_cd/function/colcon_cd.sh\" >> ~/.bashrc"
