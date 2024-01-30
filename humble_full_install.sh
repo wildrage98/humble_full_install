@@ -86,15 +86,11 @@ sh -c "echo \"alias cs='cd ~/robot_ws/src'\" >> ~/.bashrc"
 
 sh -c "echo \"alias cb='cd ~/robot_ws && colcon build --symlink-install'\" >> ~/.bashrc"
 sh -c "echo \"alias cba='colcon build --symlink-install'\" >> ~/.bashrc"
-sh -c "echo \"alias cbp='colcon build --symlink-install --packages-select'\" >> ~/.bashrc"
 
 sh -c "echo \"alias rt='ros2 topic list'\" >> ~/.bashrc"
 sh -c "echo \"alias re='ros2 topic echo'\" >> ~/.bashrc"
 sh -c "echo \"alias rn='ros2 node list'\" >> ~/.bashrc"
-
-sh -c "echo \"alias killg='killall -9 gazebo & killall -9 gzserver  & killall -9 gzclient'\" >> ~/.bashrc"
-
-sh -c "echo \"alias testpub='ros2 run demo_nodes_cpp talker'\" >> ~/.bashrc"
-sh -c "echo \"alias testsub='ros2 run demo_nodes_cpp listener'\" >> ~/.bashrc"
+sh -c "echo \"alias testp='ros2 run demo_nodes_cpp talker'\" >> ~/.bashrc"
+sh -c "echo \"alias tests='ros2 run demo_nodes_cpp listener'\" >> ~/.bashrc"
 
 
